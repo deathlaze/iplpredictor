@@ -2,7 +2,7 @@ import streamlit as st
 import sklearn
 import pandas as pd
 import pickle
-pipe = pickle.load(open('pipe.pkl','rb'))
+pipe = pickle.load(open('iplpredictor/pipe.pkl','rb'))
 st.title('IPL Win Predictor')
 teams = sorted(['Sunrisers Hyderabad',
  'Mumbai Indians',
